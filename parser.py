@@ -37,3 +37,5 @@ for row in range(3, 88):
     rez.update({reg:data})
         
 dump(rez,'исходные данные.json')
+
+
