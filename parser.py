@@ -28,10 +28,12 @@ dump(rez,'categories.json')
 
 rez = {}
 for row in range(3, 88):
+    data = {}
     for col in range(1, ws.ncols):
         reg = ws.cell(row, 0).value.replace('\n', ' ').strip()
         subsubcat = ws.cell(2, col).value.replace('\n', ' ').strip()
         v = ws.cell(row, col).value
-        rez.update({reg:{subsubcat:v}})
+        data.update({subsubcat:v})
+    rez.update({reg:data})
         
 dump(rez,'исходные данные.json')
