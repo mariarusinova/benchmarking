@@ -5,7 +5,7 @@ wb = open_workbook('data.xlsx')
 ws = wb.sheet_by_name('Расчет производительности')
 
 rez = {}
-for row in range(4,88):
+for row in range(3,88):
     reg = ws.cell(row, 0).value.replace('\n', ' ').strip()
     data = {}
     for col in range(1, 14):
