@@ -13,7 +13,6 @@ for y in range(3):
         row += [ws.cell(y, x).value.replace('\n', ' ').strip()]
     categories += [row]
     
-dump(categories,'categories.json')
 rez = {}
 subcat, cat = '', ''
 for n in range(len(categories[2])):
@@ -25,4 +24,14 @@ for n in range(len(categories[2])):
             cat = categories[0][n]
         rez.update({subsubcat:(subcat, cat)})
 
-dump(rez,'rez.json')
+dump(rez,'categories.json')
+
+rez = {}
+for row in range(3, 89):
+    for col in range(1, ws.ncols):
+        reg = ws.cell(row, 0).value.replace('\n', ' ').strip()
+        subsubcat = ws.cell(2, col).value.replace('\n', ' ').strip()
+        v = ws.cell(row, col).value
+        rez.update({reg:{subsubcat:v}})
+        
+dump(rez,'исходные данные.json')
