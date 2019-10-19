@@ -30,7 +30,7 @@ rez = {}
 for row in range(3, 88):
     data = {}
     for col in range(1, ws.ncols):
-        reg = ws.cell(row, 0).value.replace('\n', ' ').strip()
+        reg = ws.cell(row, 0).value.replace('\n', ' ').replace(' – ',' - ').strip()
         subsubcat = ws.cell(2, col).value.replace('\n', ' ').strip()
         v = ws.cell(row, col).value
         data.update({subsubcat:v})
