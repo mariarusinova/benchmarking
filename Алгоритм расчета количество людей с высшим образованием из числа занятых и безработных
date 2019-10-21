@@ -1,0 +1,87 @@
+<mxGraphModel dx="2048" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-16" target="SBdkfsBxL-x4X6ZWnNR6-17">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-16" value="Начало расчета количества людей с ВО" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="320" y="120" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-17" target="SBdkfsBxL-x4X6ZWnNR6-21">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-17" value="Загрузка исходных данных" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="320" y="240" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;fontFamily=Arial;fontSize=14;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-18" target="SBdkfsBxL-x4X6ZWnNR6-17">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-18" value="&lt;span class=&quot;pl-s&quot;&gt;Количество людей с ВО.json&lt;span class=&quot;pl-pds&quot;&gt;&lt;/span&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="40" y="235" width="200" height="90" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-21" target="SBdkfsBxL-x4X6ZWnNR6-29">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-21" value="Цикл по регионам" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="320" y="360" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-28" value="$$K = C \frac{B}{100} + E \frac{D}{100}$$" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Arial;" vertex="1" parent="1">
+      <mxGeometry x="340" y="480" width="280" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-29" target="SBdkfsBxL-x4X6ZWnNR6-32">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-29" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="320" y="480" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-43" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-32" target="SBdkfsBxL-x4X6ZWnNR6-35">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;fontFamily=Arial;fontSize=14;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-32" target="SBdkfsBxL-x4X6ZWnNR6-33">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-32" value="&lt;div&gt;Обновление REZ &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="320" y="600" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;fontFamily=Arial;fontSize=14;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-33" target="SBdkfsBxL-x4X6ZWnNR6-38">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="660" y="760"/>
+          <mxPoint x="560" y="760"/>
+          <mxPoint x="470" y="820"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-33" value="REZ" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="600" y="600" width="120" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-34" value="$$(R:K)$$" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Arial;" vertex="1" parent="1">
+      <mxGeometry x="390" y="620" width="80" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-44" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-35" target="SBdkfsBxL-x4X6ZWnNR6-38">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-35" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontFamily=Arial;fontSize=14;rotation=180;" vertex="1" parent="1">
+      <mxGeometry x="320" y="720" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-36" value="Конец цикла" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Arial;" vertex="1" parent="1">
+      <mxGeometry x="370" y="750" width="100" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-37" value="&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;Количество людей с высшим образованием из числа занятых и безработных.json&lt;span class=&quot;pl-pds&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="600" y="835" width="200" height="90" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-38" target="SBdkfsBxL-x4X6ZWnNR6-39">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;strokeWidth=2;fontFamily=Arial;fontSize=14;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-38" target="SBdkfsBxL-x4X6ZWnNR6-37">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-38" value="&lt;div&gt;Сохранение данных&lt;/div&gt;&lt;div&gt;расчета&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="320" y="840" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-39" value="Конец расчета количества людей с ВО" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="320" y="960" width="200" height="80" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>
