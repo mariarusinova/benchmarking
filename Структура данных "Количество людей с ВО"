@@ -1,0 +1,58 @@
+<mxGraphModel dx="2875" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-1" value="&lt;div style=&quot;font-size: 18px&quot;&gt;Структура данных &quot;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&lt;/span&gt;Количество людей с ВО&quot;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="-559" y="40" width="390" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-5" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="-520" y="80" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-6" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="-510" y="90" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;entryX=0.145;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-7" target="SBdkfsBxL-x4X6ZWnNR6-9">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-400" y="350"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;entryX=0.145;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-7" target="SBdkfsBxL-x4X6ZWnNR6-10">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-400" y="470"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;entryX=0.145;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-7" target="SBdkfsBxL-x4X6ZWnNR6-11">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-400" y="590"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-7" value="Регионы РФ" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="-500" y="100" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Arial;fontSize=14;strokeWidth=2;endArrow=none;endFill=0;exitX=0.145;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-8" target="SBdkfsBxL-x4X6ZWnNR6-7">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-400" y="230"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-8" value="&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;C высшим образование&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;от раб.силы %&lt;span class=&quot;pl-pds&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="-360" y="240" width="270" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-9" value="&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;Численность безработных &lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;(тыс. человек)&lt;span class=&quot;pl-pds&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="-360" y="360" width="270" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-10" value="&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;Численность раб. силы&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;(тыс. человек)&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="-360" y="480" width="270" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-11" value="&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;C высшим образованием&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;pl-s&quot;&gt;от безработных %&lt;span class=&quot;pl-pds&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="-360" y="600" width="270" height="80" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>
