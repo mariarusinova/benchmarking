@@ -40,3 +40,17 @@ for показатель in показатели:
     i += 1
 
 dump(rez, 'скос new.json')
+
+rez = {}
+x = 0
+for регион in регионы:
+    y = 0
+    pok = {}
+    for показатель in показатели:
+        pok.update({показатель:data[y,x]})
+        y += 1
+    rez.update({регион:pok})
+    x += 1
+
+dump(rez, 'трансформированные данные.json')
+
