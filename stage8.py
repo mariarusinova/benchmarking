@@ -6,8 +6,8 @@ import scipy as sp
 _in1 = load('трансформированные данные.json')
 _in2 = load('avg_std.json')
 
-регионы = list(_in.keys())
-показатели = list(_in[регионы[0]].keys())
+регионы = list(_in1.keys())
+показатели = list(_in1[регионы[0]].keys())
 
 data = np.zeros([len(показатели), len(регионы)])
 
