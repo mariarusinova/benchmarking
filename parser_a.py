@@ -1,7 +1,7 @@
 from xlrd import open_workbook,cellname
 from utilites import load, dump
 
-wb = open_workbook('data.xlsx')
+wb = open_workbook('xlsxdb/data.xlsx')
 
 ws = wb.sheet_by_name('Расчет кол-ва людей с ВО')
 
@@ -15,4 +15,4 @@ for row in range(1,86):
         data.update({cat:v})
     rez.update({reg:data})
 
-dump(rez,'количество людей с ВО.json')
+dump(rez,'jsondb/количество людей с ВО.json')

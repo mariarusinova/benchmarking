@@ -1,7 +1,7 @@
 from xlrd import open_workbook,cellname
 from utilites import load, dump
 
-wb = open_workbook('data.xlsx')
+wb = open_workbook('xlsxdb/data.xlsx')
 
 ws = wb.sheet_by_name('Расчет производительности')
 
@@ -16,7 +16,7 @@ for row in range(3,88):
         data.update({key1:{'ЧИСЛ':v1, 'ВРП':v2}})
     rez.update({reg:data})
 
-dump(rez,'секторная структура.json')
+dump(rez,'jsondb/секторная структура.json')
 
 #        cat = ws.cell(0, col).value.replace('\n', ' ').strip()
 #        v = ws.cell(row, col).value

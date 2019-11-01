@@ -3,8 +3,8 @@ from utilites import load, dump
 import numpy as np
 import scipy as sp
 
-_in0 = load('нормированные данные.json')
-_in1 = load('вес показателей.json')
+_in0 = load('jsondb/нормированные данные.json')
+_in1 = load('jsondb/вес показателей.json')
 
 регионы = list(_in0.keys())
 показатели = list(_in0[регионы[0]].keys())
@@ -24,4 +24,4 @@ for регион in регионы:
             pass
     rez.update({регион: _sum})
 
-dump(rez, 'индекс структурного расстояния.json')
+dump(rez, 'jsondb/индекс структурного расстояния.json')

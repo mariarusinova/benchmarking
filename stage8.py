@@ -3,8 +3,8 @@ from utilites import load, dump
 import numpy as np
 import scipy as sp
 
-_in1 = load('трансформированные данные.json')
-_in2 = load('avg_std.json')
+_in1 = load('jsondb/трансформированные данные.json')
+_in2 = load('jsondb/avg_std.json')
 
 регионы = list(_in1.keys())
 показатели = list(_in1[регионы[0]].keys())
@@ -22,4 +22,4 @@ for регион in регионы:
             poka.update({показатель: x})
     rez.update({регион: poka})
 
-dump(rez, 'нормированные данные.json')
+dump(rez, 'jsondb/нормированные данные.json')

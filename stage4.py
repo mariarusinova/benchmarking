@@ -1,6 +1,6 @@
 from utilites import load, dump
 
-_categories = load('categories.json')
+_categories = load('jsondb/categories.json')
 
 критерии = set([ _categories[k][1] for k in _categories.keys() ])
 
@@ -23,4 +23,4 @@ for показатель in _categories.keys():
     m = 1/число_критериев/число_показателей
     M.update({показатель:m})
 
-dump(M,'вес показателей.json')
+dump(M,'jsondb/вес показателей.json')

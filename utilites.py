@@ -93,7 +93,7 @@ def wrap(wpt, _str = "очень длинная строка,с пробелам
             _len = 0
     return rez.strip()
 
-def dict_to_xls(filename = 'out.xlsx', 
+def dict_to_xls(filename = 'xlsxdb/out.xlsx', 
                  IN = {}, 
                  structure = {
                          "sheets":1,

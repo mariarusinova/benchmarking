@@ -3,7 +3,7 @@ from utilites import load, dump
 import numpy as np
 import scipy as sp
 
-_in = load('трансформированные данные.json')
+_in = load('jsondb/трансформированные данные.json')
 
 регионы = list(_in.keys())
 показатели = list(_in[регионы[0]].keys())
@@ -29,4 +29,4 @@ for показатель in показатели:
     )
     i += 1
 
-dump(rez, 'avg_std.json')
+dump(rez, 'jsondb/avg_std.json')

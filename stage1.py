@@ -1,6 +1,6 @@
 from utilites import load, dump
 
-_in = load('количество людей с ВО.json')
+_in = load('jsondb/количество людей с ВО.json')
 
 rez = {}
 for reg in _in.keys():
@@ -12,4 +12,4 @@ for reg in _in.keys():
 
     rez.update({reg:Количество_людей_с_высшим_образованием})
 
-dump(rez, 'Количество людей с высшим образованием из числа занятых и безработных.json')
+dump(rez, 'jsondb/Количество людей с высшим образованием из числа занятых и безработных.json')

@@ -2,7 +2,7 @@ from utilites import load, dump
 
 эталонный_регион = "Пермский край"
 
-dists = load('индекс структурного расстояния.json')
+dists = load('jsondb/индекс структурного расстояния.json')
 
 graph = "digraph g {\n"
 for регион in dists.keys():

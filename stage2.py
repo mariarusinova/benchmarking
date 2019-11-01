@@ -1,6 +1,6 @@
 from utilites import load, dump
 
-_in = load('секторная структура.json')
+_in = load('jsondb/секторная структура.json')
 
 rez = {}
 for reg in _in.keys():
@@ -14,4 +14,4 @@ for reg in _in.keys():
 
     rez.update({reg:data})
 
-dump(rez, 'Производительность труда.json')
+dump(rez, 'jsondb/Производительность труда.json')

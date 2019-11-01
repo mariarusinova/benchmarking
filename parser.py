@@ -2,7 +2,7 @@ from xlrd import open_workbook,cellname
 from pprint import pprint
 from utilites import dump
 
-wb = open_workbook('data.xlsx')
+wb = open_workbook('xlsxdb/data.xlsx')
 
 ws = wb.sheet_by_name('исходные данные')
 
@@ -24,7 +24,7 @@ for n in range(len(categories[2])):
             cat = categories[0][n]
         rez.update({subsubcat:(subcat, cat)})
 
-dump(rez,'categories.json')
+dump(rez,'jsondb/categories.json')
 
 rez = {}
 for row in range(3, 88):
@@ -36,6 +36,6 @@ for row in range(3, 88):
         data.update({subsubcat:v})
     rez.update({reg:data})
         
-dump(rez,'исходные данные.json')
+dump(rez,'jsondb/исходные данные.json')
 
 

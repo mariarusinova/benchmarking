@@ -3,8 +3,8 @@ from utilites import load, dump
 import numpy as np
 import scipy as sp
 
-_in = load('исходные данные (ред).json')
-скос0 = load('скос.json')
+_in = load('jsondb/исходные данные (ред).json')
+скос0 = load('jsondb/скос.json')
 
 регионы = list(_in.keys())
 показатели = list(_in[регионы[0]].keys())
@@ -39,7 +39,7 @@ for показатель in показатели:
     rez.update({показатель:скос[i]})
     i += 1
 
-dump(rez, 'скос new.json')
+dump(rez, 'jsondb/скос new.json')
 
 for i_показатель in показатели:
     print(round(скос0[i_показатель],2), round(rez[i_показатель], 2), i_показатель)
@@ -55,5 +55,5 @@ for регион in регионы:
     rez.update({регион:pok})
     x += 1
 
-dump(rez, 'трансформированные данные.json')
+dump(rez, 'jsondb/трансформированные данные.json')
 

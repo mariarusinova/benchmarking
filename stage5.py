@@ -3,7 +3,7 @@ from utilites import load, dump
 import numpy as np
 import scipy as sp
 
-_in = load('исходные данные (ред).json')
+_in = load('jsondb/исходные данные (ред).json')
 
 регионы = list(_in.keys())
 показатели = list(_in[регионы[0]].keys())
@@ -26,4 +26,4 @@ for показатель in показатели:
     rez.update({показатель:скос[i]})
     i += 1
 
-dump(rez, 'скос.json')
+dump(rez, 'jsondb/скос.json')
