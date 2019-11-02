@@ -28,6 +28,29 @@ py = open('stage6.py').readlines()
 
 place = graph.find('mxCell', parent="0")
 
+class MxGeometry(Tag):
+    def __init__(self, x=None, y=None, width=None, height=None):
+        try:
+            assert x != None
+            super().__init__(
+                name = 'mxGeometry', 
+                attrs = {
+                    'x' :      x, 
+                    'y' :      y, 
+                    'width' :  width, 
+                    'height':  height, 
+                    'as' :     "geometry"
+                }
+            )
+        except AssertionError:
+            super().__init__(
+                name = 'mxGeometry', 
+                attrs = {
+                    'relative':"1",
+                    'as' :     "geometry"
+                }
+            )
+            
 class Block(Tag):
     def __init__(self, tag, codeline):
         super().__init__(name = tag)
@@ -55,16 +78,7 @@ class OtherBlock(Tag):
                 'vertex':"1"
             }
         )
-        mxGeometry = Tag(
-            name = 'mxGeometry', 
-            attrs = {
-                'x' :      "260", 
-                'y' :      "320", 
-                'width' :  "100", 
-                'height':  "100", 
-                'as' :     "geometry"
-            }
-        )
+        mxGeometry = MxGeometry()
         self.insert(new_child = mxGeometry, position = 0)
         
 for line in py:
