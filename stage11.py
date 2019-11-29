@@ -9,6 +9,19 @@ for region in _in2:
     try:
         try:
             distances = _in1[region]
+        except KeyError:
+            try:
+                distances = _in1[_in2[region]['emissname']]
+            except KeyError:
+                try:
+                    if 'Москва' in region:
+                        distances = _in1['г. Москва']
+                    elif 'Петербург' in region:
+                        distances = _in1['г. Санкт-Петербург']
+                    elif 'Осетия' in region:
+                        distances = _in1['Республика Северная Осетия-Алания']
+                except KeyError:
+                    pass
         assert distances
         wb = xlwt.Workbook()
         ws = wb.add_sheet(region[:20])
