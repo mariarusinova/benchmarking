@@ -1,0 +1,150 @@
+<mxGraphModel dx="1422" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-106" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="1WjgS2Cy8NCIPOpdEGKF-99" target="1WjgS2Cy8NCIPOpdEGKF-96">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-102" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="1WjgS2Cy8NCIPOpdEGKF-101" target="SBdkfsBxL-x4X6ZWnNR6-17">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-101" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;вес показателей.json&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="40" y="311" width="200" height="90" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-89" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-35" target="SBdkfsBxL-x4X6ZWnNR6-39">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;entryPerimeter=0;" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-16" target="1WjgS2Cy8NCIPOpdEGKF-76" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-16" value="Начало&lt;br&gt;&lt;div&gt;расчета структурных &lt;br&gt;&lt;/div&gt;&lt;div&gt;расстояний&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" parent="1" vertex="1">
+      <mxGeometry x="320" y="120" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-17" target="1WjgS2Cy8NCIPOpdEGKF-32">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-17" value="Загрузка исходных данных" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Arial;fontSize=14;" parent="1" vertex="1">
+      <mxGeometry x="320" y="240" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;fontFamily=Arial;fontSize=14;" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-18" target="SBdkfsBxL-x4X6ZWnNR6-17" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-18" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;нормированные&lt;/div&gt;данные.json" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" parent="1" vertex="1">
+      <mxGeometry x="40" y="235" width="200" height="90" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-37" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;матрица структурных расстояний.json&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" parent="1" vertex="1">
+      <mxGeometry x="53" y="650" width="200" height="90" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;strokeWidth=2;fontFamily=Arial;fontSize=14;" parent="1" source="SBdkfsBxL-x4X6ZWnNR6-38" target="SBdkfsBxL-x4X6ZWnNR6-37" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="253" y="810" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-38" value="&lt;div&gt;Сохранение данных&lt;/div&gt;&lt;div&gt;расчета&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Arial;fontSize=14;" parent="1" vertex="1">
+      <mxGeometry x="320.00000000000006" y="650" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-39" value="Конец&lt;br&gt;&lt;div&gt;расчета структурных &lt;br&gt;&lt;/div&gt;&lt;div&gt;расстояний&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" parent="1" vertex="1">
+      <mxGeometry x="320.00000000000006" y="770" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeWidth=2;fontFamily=Arial;fontSize=14;" parent="1" source="1WjgS2Cy8NCIPOpdEGKF-11" target="1WjgS2Cy8NCIPOpdEGKF-13" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="1250" y="1380" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-11" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Arial;fontSize=14;" parent="1" vertex="1">
+      <mxGeometry x="1065" y="1280" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-13" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontFamily=Arial;fontSize=14;rotation=180;" parent="1" vertex="1">
+      <mxGeometry x="1065" y="1400" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-14" value="Конец цикла" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Arial;" parent="1" vertex="1">
+      <mxGeometry x="1115" y="1431" width="100" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endArrow=none;endFill=0;" parent="1" source="1WjgS2Cy8NCIPOpdEGKF-20" target="1WjgS2Cy8NCIPOpdEGKF-11" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-20" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" parent="1" vertex="1">
+      <mxGeometry x="1014" y="1295" width="15" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-22" value="&lt;div&gt;$$O$$&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" parent="1" vertex="1">
+      <mxGeometry x="1140" y="1200" width="50" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-109" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="1WjgS2Cy8NCIPOpdEGKF-32" target="1WjgS2Cy8NCIPOpdEGKF-105">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="830" y="280"/>
+          <mxPoint x="830" y="520"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-32" value="$$P, W$$" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="590" y="240" width="170" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-74" value="" style="group" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="320" y="530" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-35" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontFamily=Arial;fontSize=14;rotation=180;" parent="1WjgS2Cy8NCIPOpdEGKF-74" vertex="1">
+      <mxGeometry width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="SBdkfsBxL-x4X6ZWnNR6-36" value="&lt;div align=&quot;center&quot;&gt;Конец цикла&lt;/div&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Arial;" parent="1WjgS2Cy8NCIPOpdEGKF-74" vertex="1">
+      <mxGeometry x="50" y="30" width="100" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-75" value="" style="group" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="320" y="360" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-76" value="&lt;div&gt;Цикл по регионам&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1WjgS2Cy8NCIPOpdEGKF-75">
+      <mxGeometry width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-77" value="&lt;div&gt;$$R_e$$&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1WjgS2Cy8NCIPOpdEGKF-75">
+      <mxGeometry x="65" y="40" width="70" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-94" value="&lt;div align=&quot;left&quot;&gt;from utilites import load, dump&lt;br&gt;&lt;br&gt;import numpy as np&lt;br&gt;import scipy as sp&lt;br&gt;&lt;br&gt;_in0 = load(&#39;jsondb/нормированные данные.json&#39;)&lt;br&gt;_in1 = load(&#39;jsondb/вес показателей.json&#39;)&lt;br&gt;&lt;br&gt;регионы = list(_in0.keys())&lt;br&gt;показатели = list(_in0[регионы[0]].keys())&lt;br&gt;эталонный_регион = &quot;Пермский край&quot;&lt;br&gt;&lt;br&gt;rez = {}&lt;br&gt;for эталонный_регион in регионы:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; row = {}&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; for регион in регионы:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (эталонный_регион != регион):&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; _sum = 0&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; for показатель in показатели:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; try:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; вес = _in1[показатель]&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; показатель_эт_региона = _in0[эталонный_регион][показатель]&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; показатель_региона = _in0[регион][показатель]&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; x = вес * ((показатель_эт_региона - показатель_региона) ** 2)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; _sum += x&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; except KeyError:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; pass&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; row.update({регион: _sum})&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; rez.update({эталонный_регион:row})&lt;br&gt;&lt;br&gt;dump(rez, &#39;jsondb/матрица структурных расстояний.json&#39;)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+      <mxGeometry x="1240" y="250" width="440" height="440" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-95" value="" style="group" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="590" y="600" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-96" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontFamily=Arial;fontSize=14;rotation=180;" vertex="1" parent="1WjgS2Cy8NCIPOpdEGKF-95">
+      <mxGeometry width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-97" value="&lt;div align=&quot;center&quot;&gt;Конец цикла&lt;/div&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Arial;" vertex="1" parent="1WjgS2Cy8NCIPOpdEGKF-95">
+      <mxGeometry x="50" y="30" width="100" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-98" value="" style="group" vertex="1" connectable="0" parent="1">
+      <mxGeometry x="590" y="360" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-99" value="&lt;div&gt;Цикл по регионам&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fontFamily=Arial;fontSize=14;" vertex="1" parent="1WjgS2Cy8NCIPOpdEGKF-98">
+      <mxGeometry width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-100" value="&lt;div&gt;$$R_i$$&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1WjgS2Cy8NCIPOpdEGKF-98">
+      <mxGeometry x="70" y="40" width="60" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-103" value="$$\Sigma_p \left[ w_p \cdot \left (P_{r_e} - P_{r_i} \right ) ^2 \right]$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+      <mxGeometry x="500" y="510" width="380" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-105" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="590" y="480" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-107" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="1WjgS2Cy8NCIPOpdEGKF-76" target="1WjgS2Cy8NCIPOpdEGKF-99">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="420" y="470"/>
+          <mxPoint x="555" y="470"/>
+          <mxPoint x="555" y="340"/>
+          <mxPoint x="690" y="340"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="1WjgS2Cy8NCIPOpdEGKF-108" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="1WjgS2Cy8NCIPOpdEGKF-96" target="SBdkfsBxL-x4X6ZWnNR6-35">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="690" y="710"/>
+          <mxPoint x="555" y="710"/>
+          <mxPoint x="555" y="500"/>
+          <mxPoint x="420" y="500"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>
+
