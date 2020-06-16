@@ -29,12 +29,12 @@ for region in _in2:
         ws.write(0,1,"Регион")
         ws.write(0,2,"Индекс")
         i = 1
-        for k, v in distances.items():
+        for k, v in sorted(distances.items(), key=lambda x:x[1]):
             ws.write(i, 0, i)
             ws.write(i, 1, k)
             ws.write(i, 2, v)
             i += 1
-        wb.save('xlsxdb/%s.xlsx' % code)
+        wb.save('xlsxdb/%s.xls' % code)
     except AssertionError:
         print(region, _in2[region]['emissname'])
 
