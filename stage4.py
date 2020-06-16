@@ -25,5 +25,5 @@ def stage_4(_categories):
 
 if __name__ == '__main__':
     _categories = load('jsondb/categories.json')
-    stage_4(_categories)
+    M = stage_4(_categories)
     dump(M,'jsondb/вес показателей.json')

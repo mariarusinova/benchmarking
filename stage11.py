@@ -25,11 +25,16 @@ for region in _in2:
         assert distances
         wb = xlwt.Workbook()
         ws = wb.add_sheet(region[:20])
-        i = 0
+        ws.write(0,0,"N п/п")	
+        ws.write(0,1,"Регион")
+        ws.write(0,2,"Индекс")
+        i = 1
         for k, v in distances.items():
-            ws.write(i, 0, k)
-            ws.write(i, 1, v)
+            ws.write(i, 0, i)
+            ws.write(i, 1, k)
+            ws.write(i, 2, v)
             i += 1
         wb.save('xlsxdb/%s.xlsx' % code)
     except AssertionError:
         print(region, _in2[region]['emissname'])
+
